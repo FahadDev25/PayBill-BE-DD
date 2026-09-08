@@ -1,0 +1,15 @@
+exports.store = (req, res) => {
+    checkRequest("store", res)
+}
+exports.getAll = (req, res) => {
+    checkRequest("get all", res)
+}
+exports.getOne = (req, res) => {
+    checkRequest("get one", res)
+}
+exports.update = (req, res) => {
+    checkRequest("update", res)
+}
+exports.delete = (req, res) => {
+    checkRequest("delete", res)
+}
